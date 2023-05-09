@@ -1,0 +1,84 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 8/05/2023, 3:55:23 p. m.
+    Author     : Ale
+*/
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+h1 {
+  color: #333;
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {    
+    font-size: 20px;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+ }
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para el formulario de edición */
+/*form {
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+}*/
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type=text], input[type=number], select {
+    padding: 6px 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+button {
+  display: block;
+  width: 100%;
+  background-color: #0066cc;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+button:hover {
+  background-color: #4CAF50;
+}
